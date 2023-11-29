@@ -1,0 +1,20 @@
+.lista-colorida {
+    font-size: x-large;
+    text-align: center;
+    list-style-type: upper-roman;
+    width: fit-content;
+    background-color: chocolate;
+}
+
+.lista-colorida li {
+    background-color: gray;
+}
+
+.lista-colorida li:hover {
+    font-weight: bold;
+}
+
+/* Seleciona todos os elementos pares (even). Obs: ímpar (odd) */
+.lista-colorida li:nth-child(even) {
+    background-color: orange;
+}

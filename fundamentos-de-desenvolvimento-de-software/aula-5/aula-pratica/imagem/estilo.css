@@ -1,0 +1,16 @@
+.link-imagem {
+    width: 400px;
+    height: 300px;
+    background-image: url("cat.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.link-imagem:hover {
+    filter: grayscale(60%);
+}
+
+.link-imagem:active {
+    filter: none;
+}

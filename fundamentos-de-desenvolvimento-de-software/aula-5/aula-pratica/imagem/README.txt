@@ -1,0 +1,1 @@
+Aqui aprendemos sobre as pseudo classes. Que são classes internas nas tags html.

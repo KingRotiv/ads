@@ -1,0 +1,39 @@
+.quadrado {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    position: absolute;
+    border: 4px solid;
+    border-radius: 10px;
+}
+
+.quadrado > h1 {
+    text-align: center;
+    color: white;
+}
+
+.quadrado-vermelho {
+    border-color: darkred;
+    background-color: red;
+}
+
+.quadrado-verde {
+    border-color: darkgreen;
+    background-color: green;
+    right: 0px;
+    top: 0px;
+}
+
+.quadrado-azul {
+    border-color: darkblue;
+    background-color: blue;
+    left: 0px;
+    bottom: 0px;
+}
+
+.quadrado-preto {
+    border-color:darkgray;
+    background-color: black;
+    right: 0px;
+    bottom: 0px;
+}

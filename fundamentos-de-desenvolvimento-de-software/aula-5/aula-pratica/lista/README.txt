@@ -1,0 +1,1 @@
+Aqui aprendemos como selecionar elementos de uma lista com o critério se eles são pares ou ímpares.
