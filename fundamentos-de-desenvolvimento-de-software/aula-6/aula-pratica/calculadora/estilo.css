@@ -1,0 +1,24 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.campo {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.botao-calcular {
+    padding: 4px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.botao-calcular:hover {
+    background-color: gray;
+}
+
+.botao-calcular:active {
+    background-color: black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div>
+        <form action="#" id="formCalcular">
+            <input class="campo" type="number" placeholder="Valor 1" name="valor1" required>
+            <input class="campo" type="number" placeholder="Valor 2" name="valor2" required>
+            <select class="campo" name="op">
+                <option value="som">+</option>
+                <option value="sub">-</option>
+                <option value="mul">*</option>
+                <option value="div">/</option>
+            </select>
+            <input class="botao-calcular" type="submit" value="Calcular">
+        </form>
+    </div>
+    <div id="divResultado" hidden>
+        <p>Resultado = <span id="resultado"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
